@@ -1,5 +1,4 @@
 import { Link, useNavigate } from 'react-router-dom';
-import useUser from './hooks/useUser';
 
 const NavBar = () => {
     const navigate = useNavigate();
@@ -11,10 +10,10 @@ const NavBar = () => {
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/about">About</Link>
+                    <Link to="/">About</Link>
                 </li>
                 <li>
-                    <Link to="/articles">Maybe Useful?</Link>
+                    <Link to="/">Maybe Useful?</Link>
                 </li>
             </ul>
         </nav>
