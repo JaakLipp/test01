@@ -1,9 +1,6 @@
 import dino from './images.png'
 
 const HomePage = () => {
-    const state = {
-        speed: 3
-       }
 
     return(
         <>
