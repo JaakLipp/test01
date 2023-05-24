@@ -11,6 +11,8 @@ function App() {
         <NavBar />
         <div id="page-body">
           <Routes>
+            <Route path="/index" element={<HomePage />} />
+            <Route path="/" element={<HomePage />} />
             <Route path="/test01" element={<HomePage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
