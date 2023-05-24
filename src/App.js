@@ -12,9 +12,7 @@ function App() {
         <div id="page-body">
           <Routes>
             <Route path="/test01" element={<HomePage />} />
-            <Route path="/" element={<HomePage />} />
             <Route path="*" element={<NotFoundPage />} />
-
           </Routes>
         </div>
       </div>
