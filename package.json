@@ -1,7 +1,7 @@
 {
   "name": "webtest",
   "version": "0.1.0",
-  "homepage": "http://JaakLipp.github.io/test01z",
+  "homepage": "http://JaakLipp.github.io/test01",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
